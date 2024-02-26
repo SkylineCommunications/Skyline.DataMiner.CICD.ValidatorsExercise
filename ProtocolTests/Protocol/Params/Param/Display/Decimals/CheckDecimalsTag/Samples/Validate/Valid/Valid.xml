@@ -1,0 +1,12 @@
+﻿<Protocol xmlns="http://www.skyline.be/validatorProtocolUnitTest">
+	<Params>
+		<Param id="10">
+			<Display>
+				<Decimals>8</Decimals>
+			</Display>
+			<Measurment>
+				<Type options="datetime">number</Type>
+			</Measurment>
+		</Param>
+	</Params>
+</Protocol>
