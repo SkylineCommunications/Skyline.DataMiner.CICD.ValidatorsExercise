@@ -310,6 +310,7 @@ This will inform the owners that you suggested additions and changes. Those can 
 
 For this exercise, this will trigger an automatic pipeline that closes your pull request and forwards the results to Skyline.
 
+
 > [!NOTE]
 > Skyline will review your submission. Upon successful review, you will be awarded the appropriate DevOps points as a token of your accomplishment.
 
