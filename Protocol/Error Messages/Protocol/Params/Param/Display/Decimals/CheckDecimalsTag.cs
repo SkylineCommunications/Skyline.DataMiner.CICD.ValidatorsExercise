@@ -28,8 +28,8 @@ namespace Skyline.DataMiner.CICD.Validators.Protocol.Tests.Protocol.Params.Param
                 GroupDescription = "",
                 Description = String.Format("Missing tag '{0}' with expected value '{1}' for {2} '{3}'.", "Display/Decimals", "8", "Param", paramId),
                 HowToFix = "Add a Protocol/Params/Param/Display/Decimals tag with value 8.",
-                ExampleCode = "<Display>" + Environment.NewLine + "   <RTDisplay>true</RTDisplay>" + Environment.NewLine + "   <Decimals>8</Decimals>" + Environment.NewLine + "</Display>" + Environment.NewLine + "<Measurement>" + Environment.NewLine + "   <Type options=\"datetime\">number</Type>" + Environment.NewLine + "</Measurement>" + Environment.NewLine + "",
-                Details = "By default, only 6 decimals are saved in memory. Parameters holding datetime values need at least 8 decimals to be accurate.Otherwise, there might be rounding issues when retrieving the parameter from an external source like an Automation script.",
+                ExampleCode = "<Display>" + Environment.NewLine + "   <RTDisplay>true</RTDisplay>" + Environment.NewLine + "   <Decimals>8</Decimals>" + Environment.NewLine + "</Display>" + Environment.NewLine + "<Measurement>" + Environment.NewLine + "   <Type options=\"datetime\">number</Type>" + Environment.NewLine + "</Measurement>",
+                Details = "By default, only 6 decimals are saved in memory. Parameters holding datetime values need at least 8 decimals to be accurate." + Environment.NewLine + "Otherwise, there might be rounding issues when retrieving the parameter from an external source like an Automation script.",
                 HasCodeFix = false,
 
                 PositionNode = positionNode,
